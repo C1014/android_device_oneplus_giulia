@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_giulia.mk
+    $(LOCAL_DIR)/lineage_giulia.mk \
+    $(LOCAL_DIR)/matrixx_giulia.mk
+
+COMMON_LUNCH_CHOICES := \
+    matrixx_giulia-user \
+    matrixx_giulia-userdebug \
+    matrixx_giulia-eng
